@@ -3,10 +3,10 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
-from utils import load_data
+import utils
 
 def train_and_evaluate_models():
-    df = load_data()
+df = utils.load_data()
     X = df.drop("MEDV", axis=1)
     y = df["MEDV"]
 
