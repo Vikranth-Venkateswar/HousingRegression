@@ -1,4 +1,4 @@
-# 🏠 Housing Price Prediction (MLOps Assignment 1)
+# Housing Price Prediction (MLOps Assignment 1)
 
 This repository contains a complete MLOps pipeline to predict **Boston housing prices** using classical regression models. It includes **modular Python code**, **GitHub Actions CI**, and **hyperparameter tuning** using `GridSearchCV`.
 
@@ -9,7 +9,7 @@ This repository contains a complete MLOps pipeline to predict **Boston housing p
 
 ---
 
-## ✅ Project Progress Summary
+## Project Progress Summary
 
 - [x] Set up `conda` environment (`mlops_assignment`)
 - [x] Loaded Boston Housing dataset manually (as required)
@@ -26,7 +26,7 @@ This repository contains a complete MLOps pipeline to predict **Boston housing p
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 HousingRegression/
 │
@@ -43,7 +43,7 @@ HousingRegression/
 
 ---
 
-## 📊 Dataset Used
+## Dataset Used
 
 - **Boston Housing Dataset**  
 - Loaded manually using code from:
@@ -52,7 +52,7 @@ HousingRegression/
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 All models are evaluated using:
 
@@ -63,7 +63,7 @@ A comparison is included in the final report PDF.
 
 ---
 
-## 🔧 How to Run
+## How to Run
 
 ```bash
 # Activate conda environment
@@ -80,8 +80,13 @@ python hyperparameter_tuning.py
 
 
 
-CI/CD Setup
+**CI/CD Setup**
 GitHub Actions CI is triggered on every push to:
+reg branch
+
+hyper branch
+
+It installs dependencies and runs model code automatically.
 
 reg branch
 
